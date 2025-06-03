@@ -1,0 +1,15 @@
+# Count JavaScript normally (priority language)
+*.js linguist-language=JavaScript
+
+# Count HTML and CSS normally too
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.scss linguist-language=SCSS
+
+# Exclude docs, generated files, dependencies
+*.md linguist-documentation
+*.json linguist-generated
+dist/** linguist-generated
+out/** linguist-generated
+node_modules/** linguist-vendored
+docs/** linguist-documentation
